@@ -20,7 +20,7 @@ export const BookDetails = ({ data }) => {
         </Grid>
         <Grid container spacing={2} padding={2}>
           <Grid item xl={12}>
-            <Typography variant="h5">Descricao: {data.descricao}</Typography>
+            <Typography variant="h5" align={'justify'}>Descrição: {data.descricao}</Typography>
           </Grid>
         </Grid>
       </Grid>
