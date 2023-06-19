@@ -28,7 +28,7 @@ export default function handler(req, res) {
     fs.writeFileSync(filePath, JSON.stringify({ livros: newLivros }));
 
     res.status(200).json({
-      message: `Livro ${nome} adicionado com sucesso!`,
+      message: `Livro ${nome} removido com sucesso!`,
     });
   }
 }
